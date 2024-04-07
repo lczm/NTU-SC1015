@@ -30,9 +30,11 @@ Given this ["Key Indicators of Heart Disease" dataset](https://www.kaggle.com/da
 
 ## Learning Outcomes
 
-- Handling a massively imbalanced dataset (1:24)
+- Importance of reproducible notebooks
+  - Working asynchronously, it is best to reproducible code, so that other group mates can replicate the results. Often, it is easy to write "throwaway" code in notebooks, and other group members are not able to reproduce it.
+- Handling a massively imbalanced dataset (1:24, minority : majority)
   - Undersampling can remove key features. Even when randomly sampling, we cannot just look at how many rows of data we have for the minority class. How many columns / factors of data we have also matter. In the case of this dataset, we have a lot of columns and we lost features through undersampling.
-- KFold Cross Validation
+- Cross Validation
   - TODO
 - Feature selection
   - TODO
