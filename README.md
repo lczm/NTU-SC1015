@@ -2,11 +2,7 @@
 
 ## Problem Definition
 
-Given this ["Key Indicators of Heart Disease" dataset](https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease), which has many various indicators, we want to build a model that can use these indicators, that any regular adult can obtain through a health screening, to evaluate the risk that any given individual has for heart disease.
-
-## Problem Statement
-
-With the alarming number of people suffering from heart attacks annually. There is a need for predictive risk assessment as it would benefit the individuals
+Given this ["Key Indicators of Heart Disease" dataset](https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease), which has many various indicators, we want to build a model that can use these indicators, that any regular adult can obtain through a health screening, to evaluate the risk that any given individual has for heart disease. With the alarming number of people suffering from heart attacks annually. There is a need for predictive risk assessment as it would benefit the individuals
 
 ## Data clean & EDA
 
