@@ -41,4 +41,4 @@ Given this ["Key Indicators of Heart Disease" dataset](https://www.kaggle.com/da
 ## References
 
 - https://medium.com/@Kavya2099/optimizing-performance-selectkbest-for-efficient-feature-selection-in-machine-learning-3b635905ed48#:~:text=SelectKBest%20uses%20statistical%20tests%20like,in%20the%20final%20feature%20subset.
-- 
+- https://medium.com/data-science-at-microsoft/five-mistakes-to-avoid-when-modeling-with-imbalanced-datasets-d58a8c09929c#:~:text=Resampling%20the%20validation%20and%20test,leakage%20in%20your%20evaluation%20setups.
