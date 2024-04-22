@@ -35,8 +35,20 @@ Given this ["Key Indicators of Heart Disease" dataset](https://www.kaggle.com/da
 ## Individual Contributions
 
 - Chua Ze Ming, [lczm](https://github.com/lczm)
+  - Data Cleaning
+  - Numerical & Categorical EDA
+    - Visualizations - Correlation Matrix, pie charts, countplots
+  - Resampling
+  - Modelling: Implementation & Optimization & Fine tuning
 - Nick Lee, [Nicklee4](https://github.com/Nicklee4)
+  - Numerical & Categorical EDA
+    - Boxplot, stacked barplot
+  - Undersampling
+  - Chi square
+  - Modeling: confusion matrix, results, f1, precision, recall, cross validation, ROC curve
 - Madhav, [Madhav-byte-debug](https://github.com/Madhav-byte-debug)
+  - Hyperparameter tuning
+  - Conclusion
 
 ## References
 
