@@ -4,7 +4,23 @@
 
 Given this ["Key Indicators of Heart Disease" dataset](https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease), which has many various indicators, we want to build a model that can use these indicators, that any regular adult can obtain through a health screening, to evaluate the risk that any given individual has for heart disease.
 
-##
+## Problem Statement
+
+With the alarming number of people suffering from heart attacks annually. There is a need for predictive risk assessment as it would benefit the individuals
+
+## Data clean & EDA
+
+- LabelEncoding, OneHotEncoding, OrdinalEncoding
+- Undersample dataset to visualize correlation in a massively imbalanced dataset
+- Many features in the dataset, but we can feature select to remove the unnecessary features
+  - Using the `chi2` feature selection method
+
+## Modelling
+
+- DecisionTreeClassifier, RandomForestClassifer, LogisticRegression
+- Undersampled dataset performed fine
+- SMOTEENN to resample dataset solves the problem of losing too much data from undersampling
+- RandomSearch for hyper parameter tuning. Negligible difference in this case
 
 ## Conclusion
 
@@ -15,13 +31,6 @@ Given this ["Key Indicators of Heart Disease" dataset](https://www.kaggle.com/da
 
 - Importance of reproducible notebooks
   - Working asynchronously, it is best to reproducible code, so that other group mates can replicate the results. Often, it is easy to write "throwaway" code in notebooks, and other group members are not able to reproduce it.
-- Handling a massively imbalanced dataset (1:24, minority : majority)
-  - Undersampling can help balance the classes while maintaining the integrity of the information. It allows for better exploratory data visualisation to try and spot features with some form of correlation.
-  - However, in our case, undersampling removed too many data points which hurt our model's ability to perform.
-  - Thus, we learnt to resample the dataset with both oversampling and undersampling methods.
-- New machine learning models
-  - Logistical regression
-  - Random forest
 - Cross Validation
   - Sometimes, test accuracy itself is not accurate enough. If the dataset is small enough (perhaps in the case of an undersampled dataset), it is possible that the shuffle might not be big enough and the test accuracy is not representative.
   - To fix this, when we evaluate our models, we do cross validation. This evaluates the model $n$ times and lets us avoid this problem of wondering if the test accuracy is good enough. This will give us a more accurate measure of how well a model is performing.
@@ -47,6 +56,7 @@ Given this ["Key Indicators of Heart Disease" dataset](https://www.kaggle.com/da
   - Chi square
   - Modeling: confusion matrix, results, f1, precision, recall, cross validation, ROC curve
 - Madhav, [Madhav-byte-debug](https://github.com/Madhav-byte-debug)
+  - Data Encoding
   - Hyperparameter tuning
   - Conclusion
 
